@@ -1,0 +1,70 @@
+/* This is used to resize our images */
+
+.size {
+    width: 1253px;
+    height: 500px;
+}
+
+
+/* Let's remove the default margin from our body */
+
+body {
+    margin: 0px;
+}
+
+
+/* Let's style our slide container */
+
+#slide-container {
+    position: relative;
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+}
+
+
+/* Let's style our arrows */
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 8px 19px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* To stop overlapping our two arrows we just need to move our back arrow to right */
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+
+/* Now let's style our caption */
+
+.caption {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 0px;
+}
+
+.slide {
+    display: none;
+}
